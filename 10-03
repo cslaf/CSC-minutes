@@ -1,0 +1,39 @@
+S.T.E.M
+
+Questions
+QuestionID, Questions Varchar(150), Format char(4), Category char(4), Difficulty int()
+
+PulledQuestion
+QuestionID
+
+Category
+ID char(4)
+
+Format
+ID char(4)
+
+Answers
+Question Foreign key(),
+
+Teams
+Name varchar(20), Score int
+
+Students
+Foreign Key to teams teams(), firstName varchar(16), lastName(16),  StudentID int(), ClubMembership char(4)
+
+
+Classes:
+
+Round
+
+Question
+
+Leaderboard
+
+Team
+
+Classes
+
+
+
+
